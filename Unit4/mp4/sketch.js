@@ -30,6 +30,7 @@ function setup() {
   frogPos = createVector(width / 2, height - 80);
   cat = loadImage("assets/catimage.png") ;
   mouse = loadImage("assets/mouseimage.png") ;
+  house = loadImage("assets/house.jpg");
   f1 = loadFont("assets/berkahramadhan/BerkahRamadhan.ttf") ;
   // load any images you need
   //bunnyImage = loadImage("assets/bunny.jpg");
@@ -40,7 +41,6 @@ function setup() {
 
 function draw() {
 
-  background('#c6f5ff'); // light blue
   image(house, width/2, height/2, width, height);
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -160,3 +160,5 @@ function Car() {
   }
 
 }
+
+ 
